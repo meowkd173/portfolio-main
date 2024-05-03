@@ -89,7 +89,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(../img/developer.png);
+  background-image: url(../img/main_page.png);
   background-size: cover;
   padding: 10vh 10vw 80vh 10vw;
   background-position: center bottom;
@@ -146,7 +146,8 @@ ul {
 }
 
 .info-block__text {
-  width: 40%;
+  width: 60%;
+  font-size: 20px
 }
 
 .info-block__img {
@@ -303,14 +304,14 @@ ul {
   font: inherit;
   background: #b67743;
   border: 2px solid #a52121;
-  color: #cc5430;
+  color: #000000;
   padding: 15px;
   border-radius: 10px;
   filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
 }
 
 .form__input::placeholder {
-  color: #cc8330;
+  color: #000000;
 }
 
 .form__input:active,
